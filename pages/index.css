@@ -1,41 +1,63 @@
 @import url(../vendor/normalize.css);
 
 #container {
+    position: relative;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
- 
+    top: 10px;
+}
+
+.logo {
+    cursor: pointer;
 }
 
 .fox {
+    position: relative;
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    left: 265px;
 }
 
 .fox_text {
+    position: absolute;
     font-family: "Nova Cut", system-ui, sans-serif;
-    margin-left: 10px;
+    left: 320px;
 }
 
 nav {
     display: flex;
     align-items: center;
     gap: 20px;
+    position: absolute;
+    left: 800px;
 }
 
 .nav__links {
     display: flex;
     list-style: none;
-    gap: 20px; /* Adjust spacing between links */
+    gap: 50px; 
 }
 
 button {
     background-color: blue;
     color: antiquewhite;
-    padding: 8px 15px;
+    padding: 10px 15px;
     border: none;
-    cursor: pointer;
     border-radius: 5px;
+    cursor: pointer;
 }
 
+.item {
+    cursor: pointer;
+}
+
+.item:hover {
+    text-decoration: underline;
+    text-decoration-color: gold;
+    font-weight: 500;
+}
+
+.span {
+    color: grey;
+}

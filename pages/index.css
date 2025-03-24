@@ -39,13 +39,18 @@ nav {
     gap: 50px; 
 }
 
-button {
+.nav_btn {
     background-color: blue;
     color: antiquewhite;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    opacity: 0.5;
+}
+
+.nav_btn:hover {
+    opacity: 0.9;
 }
 
 .item {
@@ -59,5 +64,42 @@ button {
 }
 
 .span {
-    color: grey;
+    color: teal;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 48px;
+}
+
+.titlep {
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: gray;
+    position: relative;
+}
+
+.title_btn {
+    display: flex;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 755px;
+    top: 370px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.title_btn:hover {
+    opacity: 1;
+}
+
+.kitsune {
+    background-image: url(../image/fox.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 100%;
 }

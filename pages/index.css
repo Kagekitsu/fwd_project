@@ -75,12 +75,13 @@ h1 {
 
 .kitsune {
     display: flex;
-    background-repeat: no-repeat;
     position: relative;
     top: 100px;
-
+    background-size: cover;   
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
 }
-
 
 .titlep {
     text-align: center;
@@ -104,9 +105,4 @@ h1 {
 
 .title_btn:hover {
     opacity: 1;
-}
-
-.kitsune {
-    background-image: url(../image/fox.jpg);
-    background-repeat: no-repeat;
 }

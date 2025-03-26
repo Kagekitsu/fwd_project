@@ -100,9 +100,22 @@ h1 {
     left: 755px;
     top: 370px;
     cursor: pointer;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .title_btn:hover {
     opacity: 1;
+}
+
+#second {
+    background-color: lightgray;
+    padding: 150px;
+    text-align: center;
+    top: 150px;
+    font-size: 16px;
+}
+
+.second_text {
+    display: flex;
+    font-size: 20px;
 }
